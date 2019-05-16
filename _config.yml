@@ -8,7 +8,7 @@ subtitle:
 description: This is a personal blog of JiaJie LIN (August)
 keywords:
 author: JiaJie LIN (August)
-language: default
+language: en
 timezone: Asia/Hong_Kong
 
 # URL
@@ -74,7 +74,7 @@ pagination_dir: page
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 #theme: landscape
-theme: cactus
+theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
@@ -82,3 +82,10 @@ deploy:
   type: git 
   repo: https://github.com/augustjjlin/augustjjlin.github.io # GitHub/Bitbucket/Coding/GitLab repository URL
   branch: master # Branch name.
+
+# Search
+search:
+  path: search.xml
+  field: post
+  format: html
+  limit: 10000
